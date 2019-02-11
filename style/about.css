@@ -1,0 +1,88 @@
+
+body{
+	font-family: "RobotoThin", sans-serif !important;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	/*background: url(../image/background_about.jpg) 50% 0 no-repeat;*/
+	}
+	.header_back{
+	background: url(../image/background/header_other.png) 50% 0 no-repeat;
+	min-width: 1170px;
+}
+.header{
+	height: 300px;
+}
+.about_us_back{
+	background: url(../image/background/about_us1.png) 50% 0 no-repeat;
+	min-width: 1170px;
+}
+.about_us{
+	width: 1170px;	
+	margin:0 auto;
+	height: 606px;
+	padding-top: 50px;
+	overflow: auto;
+	color:#666666;
+}
+.about_us img{
+	float: left;
+	margin:0 20px 10px 0;
+}
+.about_us h2{
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#06a6ae;
+	font-weight:  bold;
+}
+.about_us p{
+	padding: 10px;
+}
+.about_us ul {
+	padding:0 0 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style-image:url(../image/footer_triangle.png);
+}
+.about_company_back{
+	background: url(../image/background/about_us2.png) 50% 0 no-repeat;
+	min-width: 1170px;
+}
+.about_company{
+	height: 509px;
+}
+.about_company_text{
+	height: 100px;
+}
+	.about_company_content_check h3{
+		font-size: 19px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color:#0e7c7b;
+		padding-left: 25px;
+	}
+	.about_company_content_check h4{
+		font-size: 17px;
+		color:#ffffff;
+		padding-left: 25px;
+	}
+	.about_company_content_check p{
+		font-size: 15px;
+		text-transform: uppercase;
+		color:#ffffff;
+		padding-left: 25px;
+	}
+	.about_company_content_check button{
+		-webkit-appearance:none;
+		cursor: pointer;
+		margin-left: 25px;
+		color:#40f99b;
+		width:240px;
+		height: 36px;
+		background-color: transparent; 
+		border: 2px solid #40f99b;
+		border-radius: 18px;
+		text-transform: uppercase;
+		font-size: 14px;
+	}

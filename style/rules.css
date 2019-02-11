@@ -1,0 +1,52 @@
+.header_back{
+	background: url(../image/background/header_other.png) 50% 0 no-repeat;
+	min-width: 1170px;
+}
+.header{
+	height:300px;
+}
+.main_back{
+	background: url(../image/background/faq.png) 50% 0 no-repeat;
+	min-width: 1170px;
+}
+.main{
+	margin:0 auto;
+	width:1170px;
+	padding: 50px 0 50px 0;
+}
+.main p{
+	font-size: 18px;
+	color:#666666;
+	padding-top: 10px;
+}
+.main_top{
+	display: flex;
+	justify-content: space-between;
+}
+.main_top h2{
+	font-size:22px;
+	font-weight:900;
+	text-transform: uppercase;
+	color:#00a4ac;
+
+}
+.main_image{
+	float: left;
+}
+.content p span{
+	font-size: 20px;
+	color:#00a4ac;
+	font-weight:900;
+}
+.content p:last-child{
+	padding-bottom: 30px;
+}
+.content span{
+	font-weight:700;
+	font-size: 40px;
+	text-transform: uppercase;
+	color:#dee9e9;
+}
+.content span:nth-child(2){
+	font-size: 35px;
+}
